@@ -1,0 +1,28 @@
+body{
+    font-family: 'Roboto', serif;
+}
+ul li{
+    margin:1px;
+    display: inline-block;
+
+    background-color: #eeeeee;
+
+
+}
+li a{
+    display: inline-block;
+    padding:5px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+li a.selected{
+
+    font-weight: bold;
+    background-color: darkcyan;
+    color: white;
+}
+
+div[class^="col-sm-"]{
+    border: 1px solid;
+}
+

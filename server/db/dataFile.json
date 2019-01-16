@@ -1,0 +1,27 @@
+[
+  {
+    "investment": 10000,
+    "commitmentDate": "15 June 2019",
+    "marketValue": "High"
+  },
+  {
+    "investment": 13456,
+    "commitmentDate": "14 June 2019",
+    "marketValue": "Low"
+  },
+  {
+    "investment": 90990,
+    "commitmentDate": "10 June 2019",
+    "marketValue": "Good"
+  },
+  {
+    "investment": 67788,
+    "commitmentDate": "11 June 2019",
+    "marketValue": "Medium"
+  },
+  {
+    "investment": 23234,
+    "commitmentDate": "11 June 2019",
+    "marketValue": "Medium"
+  }
+]

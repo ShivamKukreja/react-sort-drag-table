@@ -1,0 +1,41 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.9",
+    "express": "^4.16.2",
+    "express-react-views": "^0.10.5",
+    "postcss-loader": "^2.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "reselect": "^3.0.1"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.14.12",
+    "postcss": "^6.0.19",
+    "postcss-modules": "^1.1.0",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd server && npm start",
+    "install:dependency": "npm install && cd server && npm install",
+    "client": "nodemon index.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "webpack": "webpack --watch"
+  },
+  "proxy": "http://localhost:3001",
+  "author": "",
+  "license": "ISC"
+}
